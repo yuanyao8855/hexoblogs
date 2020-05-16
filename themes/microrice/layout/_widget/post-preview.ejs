@@ -22,7 +22,7 @@
             <p class="text-gray">
                 <small>
                     <span>Edit @ <%= post.date.format('YYYY-MM-DD') %>，</span>
-                    <span class="hidden-xs">Wold Count: <%= post.raw.length %>，</span>
+                    <span class="hidden-xs">Wold Count: <%= (post.raw.length- post.raw.indexOf("<!--post_content_start-->")|| 0) %>，</span>
                     <span>about <%= Math.ceil(post.raw.length / 300) %> min read</span>
                 </small>
             </p>

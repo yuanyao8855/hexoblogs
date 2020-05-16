@@ -1,13 +1,13 @@
 <%- js('js/qrious.min.js') %>
 <% if(config.widgets.mobile_qrcode) { %>
 <div class="hidden-xs col-xs-12 text-center">
-    <canvas id="geektutu-post-qr"></canvas>
+    <canvas id="microrice-post-qr"></canvas>
     <p style="margin-top: -10px;"><small>微信扫一扫，阅读/分享</small></p>
 </div>
 <script>
     (function () {
         new QRious({
-            element: document.getElementById('geektutu-post-qr'),
+            element: document.getElementById('microrice-post-qr'),
             value: window.location.href,
             size: 120
         });

@@ -15,7 +15,7 @@ side_tags: tag
 
 # summary
 post: post
-
-# # 侧边栏使用
-# contents: 目录
-# recent-posts: 最近的文章
+recommend_post: also recommend
+# 侧边栏使用
+contents: Contents
+recent-posts: Recent Post
