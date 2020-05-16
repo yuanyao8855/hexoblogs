@@ -1,0 +1,21 @@
+# 分页使用
+prev: prev
+next: next
+
+# header使用
+index_page: Home
+categories: Category
+tags: Tag
+archives: Archive
+about: About
+#s idebar
+side_post: post
+side_categories: category
+side_tags: tag
+
+# summary
+post: post
+
+# # 侧边栏使用
+# contents: 目录
+# recent-posts: 最近的文章
